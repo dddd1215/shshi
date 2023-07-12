@@ -69,11 +69,11 @@ window.addEventListener("scroll", scrollHeader);
 //Reveal animation
 
 ScrollReveal().reveal('.home_img,.home_data,.about_data,.about_img,.recently_data,.recently_img,.popular_card,.footer_description,.footer_content,.footer_info', {
-    origin: 'top',
+    origin: 'top',  
     distance: '60px',
     duration: 2500, 
     delay:400,
-    // reset: true
+    reset: true
 });
 
 ScrollReveal().reveal('.home_data', {origin: 'bottom'});
